@@ -17,7 +17,7 @@ const vitePressConfigs = {
 	},
 
 	//标题
-	title: "游戏王md链接工具",
+	title: "游戏王md切号工具",
 	//站点描述
 	description: "快速为切号创建文件链接",
 	head: [

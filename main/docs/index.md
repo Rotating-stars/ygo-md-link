@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "游戏王md链接工具"
+  name: "游戏王md切号工具"
   text: "无需重新更新"
   tagline: 快速为新号创建文件链接
   actions:

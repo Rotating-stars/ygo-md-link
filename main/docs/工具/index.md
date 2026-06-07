@@ -39,10 +39,7 @@ const resetForm = () => {
 const createBatString = () => {
   const pathID = formDate.value.mdPath + "\\LocalData\\" + formDate.value.id + "\\0000"
   const pathMDCN = formDate.value.mdPath + "\\LocalData\\" + (formDate.value.mdcn||"MDCN") + "\\0000"
-  const batString = 
-`@echo off
-mklink /d "${pathID}" "${pathMDCN}"
-`
+  const batString = `mklink /d "${pathID}" "${pathMDCN}"`
   return batString
 }
 // 下载方法
