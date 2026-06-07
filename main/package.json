@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "unplugin-auto-import": "^21.0.0",
+    "unplugin-vue-components": "^32.1.0",
+    "vitepress": "2.0.0-alpha.17",
+    "vitepress-sidebar": "^1.36.1"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs --port 5333",
+    "bu": "vitepress build docs",
+    "build": "vitepress build docs --outDir ./../docs",
+    "pre": "vitepress preview docs"
+  },
+  "dependencies": {
+    "element-plus": "^2.14.1"
+  }
+}
