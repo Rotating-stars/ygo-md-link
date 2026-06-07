@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /工具/工具
+      link: /工具
     - theme: alt
       text: 文档
       link: /工具/文档
