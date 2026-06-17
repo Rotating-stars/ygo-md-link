@@ -37,8 +37,8 @@ const resetForm = () => {
 }
 // 脚本字符串
 const createBatString = () => {
-  const pathID = formDate.value.mdPath + "\\LocalData\\" + formDate.value.id + "\\0000"
-  const pathMDCN = formDate.value.mdPath + "\\LocalData\\" + (formDate.value.mdcn||"MDCN") + "\\0000"
+  const pathID = formDate.value.mdPath + "\\Yu-Gi-Oh!  Master Duel\\LocalData\\" + formDate.value.id + "\\0000"
+  const pathMDCN = formDate.value.mdPath + "\\Yu-Gi-Oh!  Master Duel\\LocalData\\" + (formDate.value.mdcn||"MDCN") + "\\0000"
   const batString = `mklink /d "${pathID}" "${pathMDCN}"`
   return batString
 }
